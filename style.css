@@ -1,0 +1,451 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    background-size: cover;
+    background-position: center;
+}
+
+header{
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    top: 0;
+    background-color: rgb(39, 38, 38);
+}
+
+header div{
+    float: left;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo img{
+    margin-left: 120px;
+    padding: 2px;
+    width: 120px;
+}
+
+
+header .nav{
+    position: absolute;
+    top: 0;
+    right: 200px;
+}
+
+header .nav ul{
+    list-style: none;
+}
+
+header .nav ul li{
+    float: left;
+    padding-right: 40px;
+    padding-top: 0px;
+}
+
+header .nav ul li a{
+    text-decoration: none;
+    color: #ffff;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+header .nav ul li a{
+    color: #ffff;
+}
+
+header .nav ul li a:hover{
+    color: #6880ec;
+}
+
+
+.checkbtn{
+    display: none;
+    font-size: 30px;
+    color: #0c2b88;
+    float: right;
+    line-height: 80px;
+    margin-right: -10px;
+}
+
+/*
+.check{
+    display: none;
+}
+*/
+
+/*section one start*/
+.section1{
+    background-color: black;
+    width: 100%;
+    height: 650px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    margin-top: 50px;
+}
+
+.half1 .half2{
+    width: 50%;
+}
+
+.half1{
+    margin-left: 150px;
+    margin-bottom: 120px;
+}
+
+.half2{
+    padding-right: 160px;
+    margin-top: 0px;
+}
+
+.half2 img{
+    width: 450px;
+    
+}
+
+.half2 h5{
+    font-weight: normal;
+}
+
+.half1 h1{
+    font-size: 60px;
+}
+
+.half1 p{
+    color: rgb(150, 142, 142);
+}
+
+.half1 input{
+    padding: 8px 20px;
+    background-color: #6880ec;
+    outline: none;
+    color: white;
+    border: 1px solid #6880ec;
+    font-size: 15px;
+}
+
+.half1 input:hover{
+    box-shadow: 1px 0px 10px rgb(49, 113, 197);
+    transition: all 0.2s ease-in 0.1s;
+    outline: none;
+    cursor: pointer;
+}
+
+/*section one End*/
+
+
+/*section Two start*/
+.section2{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.section2 div{
+    width: 80%;
+    margin: 0px auto;
+}
+
+.section2 img{
+    width: 300px;
+    padding-left: 150px;
+}
+
+.section2 h3{
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.section2 h1{
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.section2 p{
+    font-size: 16px;
+    width: 80%;
+}
+
+.section2 input{
+    font-size: 20px;
+    padding: 10px 15px;
+    outline: none;
+    background: linear-gradient(120deg, rgb(196, 185, 40), #ce2f1b,rgb(58, 66, 173), rgb(142, 20, 172));
+    border: none;
+    color: #fff;
+    border-radius: 50px;
+    animation: fade 0.2s;
+   
+}
+
+.section2 input:hover{
+    box-shadow: 1px 1px 6px rgb(175, 214, 33);
+    cursor: pointer;
+}
+/*section Two End*/
+
+/*section Three Start*/
+.section3{
+    width: 100%;
+    height: 650px;
+    margin: 0 auto;
+    text-align: center;
+    color: #fff;
+}
+
+.hh h1{
+    font-size: 40px;
+    line-height: 10px ;
+}
+
+.hh p{
+    width: 500px;
+    color: rgb(54, 52, 52);
+    margin: 0 auto;
+}
+
+
+.service{
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+.service1, .service2{
+    width: 100%;
+    overflow: hidden;
+}
+
+.service2{
+    padding-top: 40px;
+}
+
+.service1 div, .service2 div{
+    width: 32%;
+    float: left;
+    padding: 5px;
+    margin: 0 auto;
+}
+
+
+.service i{
+    font-size: 45px;    
+    color: rgb(218, 203, 203);
+
+}
+
+.service h1{
+    color: rgb(218, 203, 203);
+}
+
+.service p{
+    color: rgb(201, 196, 196);
+}
+
+.service1 div:hover{
+    background-color: #313235;
+}
+
+.service2 div:hover{
+    background-color: #313235;
+}
+
+
+/*section Three End*/
+
+/*section Four Start*/
+.section4{
+    width: 100%;
+    height: 300px;
+    background-color: #5772eb;
+}
+
+.section4 div{
+    float: left;
+    width: 20%;
+    margin: 0 auto;
+    position: relative;
+    top: 50px;
+    left: 150px;
+}
+
+.section4 h1{
+    font-size: 45px;
+}
+
+.section4 h1,p{
+    text-align: center;
+}
+/*section Four End*/
+
+
+/*section Five Start*/
+.section5{
+    width: 100%;
+    height: 700px;
+    color: white;
+    padding-top: 50px;
+}
+
+.section5 .vv{
+    text-align: center;
+    padding: 2% 0;
+}
+
+.section5 .vv h1{
+    font-size: 40px;
+    line-height: 0;
+    padding-top: 15px;
+}
+
+.section5 .vv p{
+    margin-top: -0px;
+    margin-bottom: 30px;
+}
+
+
+.section5 .card{
+    width: 75%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+
+.section5 .card1{
+    width: 300px;
+    height: 500px;
+    background-color: rgb(26, 24, 24);
+    text-align: center;
+    border: 1px solid rgb(59, 59, 59);
+}
+
+.section5 .card1 h1{
+    font-size: 35px;
+    padding-top: 8px;
+}
+
+.section5 .card1 .price{
+    font-size: 20px;
+}
+
+.section5 .card1 input{
+    outline: none;
+    background-color: #5772eb;
+    font-size: 25px;
+    padding: 6px 60px;
+    font-weight: bold;
+    border: 1px solid white;
+}
+.section5 .card1:hover{
+    background-color: #5772eb;
+    transition: all 0.25s ease-in;
+    transform: scale(1.058);
+    border: 1px solid rgb(33, 138, 207)187, 55, 55;
+    box-shadow: 0 8px 12px 0 rgb(105, 97, 97);
+}
+
+.section5 .card1:hover input{
+    color: #313235;
+    background-color: #fff;
+    border-radius: 35px;
+}
+/*section Five End*/
+
+
+
+/*section Six Start*/
+footer{
+    background-color: rgb(8, 8, 36);
+    width: 100%;
+    height: 400px;
+    position: absolute;
+    color: #fff;
+    margin-top: 100px;
+    text-decoration: none;
+}
+
+footer .foot{
+    width: 80%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    margin-top: 120px;
+}
+
+footer .foot .foot1 p{
+    color: rgb(255, 255, 255, 0.5);
+}
+
+footer .foot .foot1 input{
+    font-size: 15px;
+    outline: none;
+    border: none;
+    padding: 10px 150px 10px 10px;
+}
+
+footer .foot .foot1 button{
+    font-size: 18px;
+    color: #fff;
+    background-color: #5772eb;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    padding: 8px 15px;
+}
+
+footer .foot .foot1 i{
+    font-size: 15px;
+    cursor: pointer;
+    padding: 2px 5px;
+} 
+
+footer .foot .foot1 i:hover{
+    color: #5772eb;
+}
+/*section Six End*/
+
+
+/*
+@media (max-width:768px){
+    header{
+        width: 100%;
+        height: auto;
+    }
+    header .logo{
+        margin-left: 30px;
+        padding: 20px;
+    }
+    .checktbtn{
+        display: block;
+    }
+    header .nav ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #464545;
+        top: 54px;
+        left: -200%;
+        transition: all .1s;
+    }
+    header .nav ul li{
+        line-height: 30px;
+        clear: both;
+        margin-top: 15px;
+        list-style: none;
+    }
+    #check:checked ~ ul{
+        left: 0;
+    }
+}
+*/
+
